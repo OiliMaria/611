@@ -1,0 +1,40 @@
+body {
+    box-sizing: border-box;
+    max-width: 900px;
+    width: 80%;
+    margin: 80px auto;
+    font-family: Arial;
+    font-size: medium;
+    line-height: 1.5em;
+
+}
+header {
+min-height: 70px;
+padding: 50px auto;
+}
+
+
+header nav {
+    float: left;
+    margin: 15px;
+}
+
+.table {
+    padding: auto;
+}
+
+/*Mobiilityylit*/
+
+@media only screen and (max-width:700px) {
+
+    header,
+    body,
+    header > nav{
+        display: block;
+        float: none;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        clear: both;
+    }
+}
